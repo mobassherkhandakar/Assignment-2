@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+:root{
+    --primary-color: #FF900E;
+    --secend-color: #131313;
+    --third-color: #727272;
+    --b-font-size: 4.5rem;
+    --n-font-size: 1.6rem;
+}
+/* =-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=
+                    Header Area
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.header{
+    background: rgba(255, 144, 14, 0.1);
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+    margin-bottom: 8rem;
+}
+.logo h2{
+    font-weight: 700;
+    font-size: var(--b-font-size);
+    line-height: 5.3rem;
+    color: var(--secend-color);
+}
+.navber ul{
+    display: flex;
+    align-items: center;
+}
+.navber ul li a{
+    font-size: 1.8rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: #424242;
+    padding: 0 2rem;
+}
+/* =-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=
+                    banner Area
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.banner-text{
+    text-align: center;
+}
+.banner-text h3{
+    color: var(--secend-color);
+    font-size: 6.4rem;
+    line-height: 7.5rem;
+    font-weight: 700;
+}
+.banner-text p{
+    line-height: 2.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--third-color);
+    width: 80%;
+    margin: 2.5rem auto;
+}
+.btn{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 1.5rem 2rem;
+    border: 0;
+    border-radius: 1rem;
+    margin: 3rem;
+}
+/* =-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=
+                    banner Area
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.section-1 .container{
+    margin-top: 8.5rem;
+}
+.future-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 7.3rem;
+}
+.photo-album{
+    width: 100%;
+}
+.photos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2.4rem;
+    row-gap: 2.4rem;
+}
+.future-text{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.future-title h3{
+    font-size: 4.5rem;
+    line-height: 5.3rem;
+    font-weight: 500;
+}
+.future-title p{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+    color: var(--third-color);
+    margin-top: 2.4rem;
+    margin-bottom: 3.2rem;
+}
+.future-title .btn{
+    margin: 0;
+}
+/* =-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=
+            future-love & enjoy section
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.section-2{
+    margin-top: 13rem;
+}
+.section-2 .container{
+    height: 100rem;
+    position: relative;
+}
+.future-love-section{
+    display: flex;
+    gap: 5.4rem;
+    align-items: center;
+    justify-content: space-between;
+        
+}
+.love-section-text{
+    width: 50%;
+}
+.future-love-title h3{
+    font-weight: 700;
+    font-size: var(--b-font-size);
+    line-height: 5.3rem;
+    color: var(--secend-color);
+    padding-left: 1rem;
+    border-left: 4px solid var(--primary-color);
+    margin-bottom: 2rem;
+}
+.future-love-title p{
+    font-size: var(--n-font-size);
+    line-height: 2.6rem;
+    font-weight: 400;
+    color: var(--third-color);
+    margin-bottom: 3rem;
+}
+.future-experienc{
+    padding: 3rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+.enjoy-section-img{
+    width: 50%;
+    position: relative;
+}
+.section-2 .btn2{
+    padding: 2.5rem 2.2rem;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    font-weight: 500;
+    position: absolute;
+    top: 60%;
+    left: 47%;
+}
+button span{
+    font-size: 5.5rem;
+    line-height: 7rem;
+    font-weight: 700;
+}
+/* =-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=
+                     some facts
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.title-text{
+    font-size: var(--b-font-size);
+    line-height: 5.3rem;
+    font-weight: 700;
+    color: var(--secend-color);
+    margin-bottom: 2.4rem;
+}
+.title-description{
+    line-height: 2.6rem;
+    font-size: var(--n-font-size);
+    font-weight: 400;
+    color: var(--third-color);
+    width: 50%
+}
+.facts-icon{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.icon{
+    border: 1px solid var(--primary-color);
+    width: 24.1rem;
+    height: 24.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-top: 10rem;
+}
+.icon h3{
+    font-size: 4.5rem;
+    line-height: 5.3rem;
+    font-weight: 500;
+}
+/* =-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=
+                  sponsers section
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.section-4{
+    margin-top: 15rem;
+}
+.sponsers-text{
+    text-align: center;
+}
+.section-4 .title-description{
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+.sponser-company{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+/* =-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=
+                  footer section
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+footer .container{
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-top: 13rem;
+    margin-bottom: 1rem;
+}
+footer p{
+    padding: 3.8rem 41rem;
+
+}
