@@ -32,6 +32,7 @@ img{
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 .header{
     background: rgba(255, 144, 14, 0.1);
+    padding-bottom: 1rem;
 }
 .container{
     width: 85%;
@@ -247,6 +248,10 @@ button span{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
+.sponser-company img {
+    mix-blend-mode: luminosity;
+    color: #000;
+}
 /* =-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=
                   footer section
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
@@ -257,6 +262,9 @@ footer .container{
     margin-bottom: 1rem;
 }
 footer p{
-    padding: 3.8rem 41rem;
-
+    padding: 3.8rem 25rem;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    font-weight: 400;
+    color: #424242;
 }
