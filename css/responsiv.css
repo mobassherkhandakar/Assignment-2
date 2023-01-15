@@ -21,4 +21,15 @@
     .future-love-section{
         align-items: start;
     }
+    .facts-icon{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+    }
+    .sponser-company{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        grid-row-gap: 1rem;
+    }
 }
