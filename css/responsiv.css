@@ -1,0 +1,24 @@
+@media (max-width: 992px) {
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width: 885px) {
+    html{
+        font-size: 50%;
+    }
+}
+@media (max-width: 576px) {
+    html{
+        font-size: 40%;
+    }
+    .navber ul,
+    .future-container,
+    .future-love-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .future-love-section{
+        align-items: start;
+    }
+}
