@@ -55,4 +55,8 @@
         display: flex;
         flex-direction: column;
     }
+    .ten-years-btn{
+        bottom: 5%;
+        right: 52%;
+    }
 }
