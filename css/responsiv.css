@@ -7,9 +7,11 @@
     html{
         font-size: 50%;
     }
-    .facts-icon{
+    .facts-icon,
+    .sponser-company{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
     }
 }
 @media (max-width: 576px) {
@@ -18,7 +20,8 @@
     }
     .navber ul,
     .future-container,
-    .future-love-section{
+    .future-love-section,
+    .contact-container{
         display: flex;
         flex-direction: column;
     }
@@ -39,5 +42,17 @@
         grid-template-columns: repeat(1, 1fr);
         text-align: center;
         grid-row-gap: 1rem;
+    }
+    .footer-left p{
+        width: 100%;
+    }
+    form input{
+        padding: 2.1rem 2rem 2.1rem 1rem;
+    }
+}
+@media (max-width: 420px) {
+    .menu{
+        display: flex;
+        flex-direction: column;
     }
 }
