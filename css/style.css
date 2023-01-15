@@ -50,6 +50,12 @@ img{
     font-size: var(--b-font-size);
     line-height: 5.3rem;
     color: var(--secend-color);
+    padding: 1rem 1rem;
+    box-shadow: 0 0 5px #727272;
+    border-radius: 1rem;
+}
+#hit{
+    color: var(--primary-color);
 }
 .navber ul{
     display: flex;
@@ -66,6 +72,7 @@ img{
     padding: 1rem 1rem;
     box-shadow: 0 0 5px #727272;
     border-radius: 1rem;
+    border: 1px solid var(--primary-color);
 }
 /* =-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=
                     banner Area
