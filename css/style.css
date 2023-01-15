@@ -217,6 +217,11 @@ button span{
     color: var(--third-color);
     width: 50%
 }
+.icon-container{
+    display: flex;
+    justify-content: center;
+    
+}
 .facts-icon{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
