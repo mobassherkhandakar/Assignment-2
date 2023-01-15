@@ -58,6 +58,9 @@
         display: flex;
         flex-direction: column;
     }
+    .logo h2{
+        margin-bottom: 1.5rem;
+    }
     .navber ul li{
         margin-bottom: 1.7rem;
     }
