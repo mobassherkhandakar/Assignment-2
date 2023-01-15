@@ -21,6 +21,10 @@
     .future-love-section{
         align-items: start;
     }
+    .photos{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
     .facts-icon{
         display: grid;
         grid-template-columns: repeat(1, 1fr);

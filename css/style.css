@@ -91,7 +91,7 @@ img{
     margin: 3rem;
 }
 /* =-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=
-                    banner Area
+                   Quick list Area
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 .section-1 .container{
     margin-top: 8.5rem;
@@ -256,8 +256,8 @@ button span{
     grid-template-columns: repeat(5, 1fr);
 }
 .sponser-company img {
-    mix-blend-mode: luminosity;
-    color: #000;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
 }
 /* =-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=
                   footer section
