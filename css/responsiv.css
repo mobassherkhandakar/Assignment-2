@@ -56,7 +56,13 @@
         flex-direction: column;
     }
     .ten-years-btn{
-        bottom: 5%;
-        right: 52%;
+        bottom: 7%;
+        right: 51%;
+    }
+    .love-section-text{
+        width: 100%;
+    }
+    .enjoy-section-img{
+        width: 100%;
     }
 }
